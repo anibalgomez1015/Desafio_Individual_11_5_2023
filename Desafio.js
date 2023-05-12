@@ -2,8 +2,8 @@
 //Escribe una función en JavaScript llamada "calcularPrecio" que recibe dos parámetros: "precioBase" y "descuento". La función debe calcular el precio final de un producto aplicando el descuento sobre el precio base.
 
 //Variables y fórmulas
-var precioBase = 2000
-var descuento = 1000
+var precioBase = 20
+var descuento = 5
 var precioFinal = precioBase - ((precioBase * descuento) / 100)
 
 //Función solicitada
@@ -19,4 +19,4 @@ function calcularPrecio(precioBase, descuento) {
         return "El precio final con descuento es $ " + precioFinal;
     }
 } 
- 
+console.log(calcularPrecio(precioBase, descuento))
